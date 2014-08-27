@@ -557,7 +557,6 @@ F 3 "" H 3900 2750 60  0000 C CNN
 	1    3900 2750
 	0    -1   -1   0   
 $EndComp
-Connection ~ 10700 4850
 $Comp
 L CONN_01X02 P2
 U 1 1 53FDE8A1
