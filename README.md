@@ -49,9 +49,10 @@ If you've downloaded this documentation as a complete zip package, you'll
 see the following folders inside:
 
 root: 
-  README.md: this file
-  LICENSE: license terms
-  cern_ohl_v_1_2_howto-1.pdf: guide on licence usage 
+  README.md: this file  
+  LICENSE: license terms  
+  cern_ohl_v_1_2_howto-1.pdf: guide on licence usage
+
 src:
   documentation sources including schematics, pcb layout and fabrication plots
 
@@ -75,8 +76,10 @@ see few additional folders:
 
 download:
 	latest download zip package
+
 old_do_not_use:
 	old files, do not use these ;)
+
 script:
   zip package creation script
   
