@@ -54,14 +54,19 @@ root:
   cern_ohl_v_1_2_howto-1.pdf: guide on licence usage 
 src:
   documentation sources including schematics, pcb layout and fabrication plots
+
 src/simulations: 
   circuit simulations
+
 src/kicad-250K-G-v2: 
   kicad project and fab plots for preamp, 250K pots, guitar version
+
 src/kicad-100K-G-v2: 
   kicad project and fab plots for preamp, 100K pots, guitar version
+
 src/kicad-250K-B-v2: 
   kicad project and fab plots for preamp, 250K pots, bass version
+
 src/kicad-100K-B-v2: 
   kicad project and fab plots for preamp, 100K pots, bass version
   
