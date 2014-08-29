@@ -80,8 +80,8 @@ download:
 old_do_not_use:
 	old files, do not use these ;)
 
-script:
-  zip package creation script
+scripts:
+  zip package creation scripts
   
 Fabrication files
 -----------------
