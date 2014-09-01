@@ -1,0 +1,40 @@
+* D:\Work\electronics\preamp 3eq LA\src\simulations\3EQ-100K-Guitar-v2.asc
+C1 N008 N007 0.1µ
+XU1 N008 N001 + 0 N001 TL062 TL062
+XU2 Ref N013 + 0 N005 TL062 TL062
+C2 N004 N001 2.2µ
+R3 N002 N004 22K
+R4 N010 N004 10K
+R5 N014 N004 4.7K
+V1 N006 0 SINE(0 0.1V 1000) AC 1
+XU3 N003 N002 N009 potentiometer Rtot=100K wiper=.5
+XU4 N011 N010 N012 potentiometer Rtot=100K wiper={w}
+XU5 N015 N014 N016 potentiometer Rtot=100K wiper=.5
+C3 N013 N012 6.8n
+C4 N013 N016 1.5n
+R6 N005 N003 22K
+R7 N009 N013 10K
+R8 N005 N011 10K
+R9 N005 N015 4.7K
+C5 N018 N017 10µ
+C6 N003 N002 10n
+C7 N011 N010 1.5n
+R10 N018 0 500K
+R11 Ref 0 100K
+R12 + Ref 100K
+C8 Ref 0 1µ
+V2 + 0 9V Rser=5
+C9 + 0 10µ
+C10 N005 N013 100pf
+R13 N008 Ref 5Meg
+R14 N017 N005 470
+R1 N007 N006 1K
+;tran 3
+.ac oct 10 20 20000
+.inc TL062.sub
+.inc potentiometer.sub
+.step lin param w 0 1 0.1
+* U3 - U5: 100K LIN
+* Preampli 3 EQ\nversion guitare
+.backanno
+.end

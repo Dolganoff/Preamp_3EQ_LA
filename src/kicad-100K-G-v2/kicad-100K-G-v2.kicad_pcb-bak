@@ -2,7 +2,7 @@
 
   (general
     (links 46)
-    (no_connects 2)
+    (no_connects 0)
     (area 112.344999 76.149999 148.005001 123.875001)
     (thickness 1.6)
     (drawings 26)
@@ -62,10 +62,10 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEFFFF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
-      (layerselection 0x00020_00000000)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
@@ -81,13 +81,13 @@
       (plotreference false)
       (plotvalue true)
       (plotinvisibletext true)
-      (padsonsilk true)
-      (subtractmaskfromsilk false)
-      (outputformat 4)
+      (padsonsilk false)
+      (subtractmaskfromsilk true)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory plots/))
   )
 
   (net 0 "")
@@ -258,7 +258,7 @@
     (fp_text reference C5 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value 10n (at 0 0) (layer F.SilkS) hide
+    (fp_text value 6.8n (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start -3.556 -1.016) (end 3.556 -1.016) (layer F.SilkS) (width 0.3048))
