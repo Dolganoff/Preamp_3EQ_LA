@@ -1,0 +1,6 @@
+All the design work is finished for this version (v2)
+
+TODO list:
+----------
+
+* Send gerber plot files for fabrication, verify the packages

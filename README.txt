@@ -45,13 +45,14 @@ Software tools used in this project:
 Folder Structure
 ----------------
 
-If you've downloaded this documentation as a complete zip package, you'll
+* If you've downloaded this documentation as a zip package, you'll
 see the following folders inside:
 
 root: 
-  README.md: this file  
-  LICENSE: license terms  
-  cern_ohl_v_1_2_howto-1.pdf: guide on licence usage
+  README.txt: this file  
+  LICENSE.txt: license terms  
+  cern_ohl_v_1_2_howto-1.pdf: guide on licence usage  
+  TODO.txt: for unfinished projects only - current project status and todo list.
 
 src:
   documentation sources including schematics, pcb layout and fabrication plots
@@ -71,17 +72,17 @@ src/kicad-250K-B-v2:
 src/kicad-100K-B-v2: 
   kicad project and fab plots for preamp, 100K pots, bass version
   
-If you've obtained this documentation from github repositoty, you'll
+* If you've obtained this documentation from github repositoty, you'll
 see few additional folders:
 
 download:
-	latest download zip package
+  latest download zip package
 
 old_do_not_use:
-	old files, do not use these ;)
+  old files, do not use these ;)
 
 scripts:
-  zip package creation scripts
+  package creation scripts
   
 Fabrication files
 -----------------
