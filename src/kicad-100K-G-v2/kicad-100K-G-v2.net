@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source "D:/Work/electronics/preamp 3eq LA/src/kicad-100K-G-v2/kicad-100K-G-v2.sch")
-    (date "01/09/2014 19:04:48")
-    (tool "Eeschema (2014-08-26 BZR 5101)-product"))
+    (date "28/09/2014 23:16:01")
+    (tool "Eeschema (2014-09-19 BZR 5142)-product"))
   (components
     (comp (ref U1)
       (value TL072)
@@ -23,7 +23,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53FDBB5C))
     (comp (ref R2)
-      (value 5Meg)
+      (value 4.7Meg)
       (footprint Custom:R3-LARGE_PADS)
       (libsource (lib kicad-100K-G-v2-cache) (part R))
       (sheetpath (names /) (tstamps /))
@@ -119,7 +119,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53FDCDDD))
     (comp (ref R10)
-      (value 500)
+      (value 470)
       (footprint Custom:R3-LARGE_PADS)
       (libsource (lib kicad-100K-G-v2-cache) (part R))
       (sheetpath (names /) (tstamps /))

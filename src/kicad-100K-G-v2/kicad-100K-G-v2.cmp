@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-26 BZR 5101)-product   date = 31/08/2014 15:32:16
+Cmp-Mod V01 Created by Cvpcb (2014-09-19 BZR 5142)-product   date = 28/09/2014 23:16:23
 
 BeginCmp
 TimeStamp = /53FDBB5C;
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53FDCAA8;
 Reference = C5;
-ValeurCmp = 10n;
+ValeurCmp = 6.8n;
 IdModule  = Custom:C2-LARGE_PADS;
 EndCmp
 
@@ -101,7 +101,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53FDBBE1;
 Reference = R2;
-ValeurCmp = 5Meg;
+ValeurCmp = 4.7Meg;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
@@ -157,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53FDE08B;
 Reference = R10;
-ValeurCmp = 500;
+ValeurCmp = 470;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
