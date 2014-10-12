@@ -30,7 +30,7 @@ Notification
 ------------
 
 You're not obliged to do so but I ask you to let me know if you're building
-described product for your own use or commersialise it. 
+described product for your own use or commercialise it. 
 
 Software tools used in this project:
 ------------------------------------

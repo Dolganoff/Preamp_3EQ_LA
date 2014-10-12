@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Work/electronics/preamp 3eq LA/src/kicad-100K-B-v2/kicad-100K-B-v2.sch</source>
+    <date>06/10/2014 18:00:10</date>
+    <tool>Eeschema (2014-09-19 BZR 5142)-product</tool>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TL072</value>
+      <footprint>Custom:DIP-8_LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">595-OPA2277PA</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="TL072"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDBA23</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF071K00GKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDBB22</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">505-MKS2.1/100/10</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDBB5C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7 Meg</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">603-MFR-25FRF52-4M7</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDBBE1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF0722K0GKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC007</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">603-MFR-25FRF5210K</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC033</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4.7K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF074K70GKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC064</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>B 100K</value>
+      <footprint>Custom:SIL-3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Field4">Low</field>
+        <field name="Ref_Mouser">652-PDB181-E420K104B</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC298</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22n</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">80-R82EC2220DQ50J</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC2BE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF0722K0GKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC2F0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>3.3n</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">505-FKS23300/100/5 </field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC47C</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>B 100K</value>
+      <footprint>Custom:SIL-3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Field4">Mid</field>
+        <field name="Ref_Mouser">652-PDB181-E420K104B</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC4B0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">603-MFR-25FRF5210K</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC506</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">603-MFR-25FRF5210K</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDC703</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>B 100K</value>
+      <footprint>Custom:SIL-3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Field4">High</field>
+        <field name="Ref_Mouser">652-PDB181-E420K104B</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDCA38</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">80-R82EC2100DQ50K</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDCAA8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF074K70GKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDCD67</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2n</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">80-R82EC1220DQ50J </field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDCDDD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF07470RGKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDE08B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Custom:C1.5V7-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">667-EEU-FC1H100L</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDE111</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF07100KGKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDF903</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Custom:R3-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">71-CCF07100KGKE36</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDF96E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Custom:C1.5V7-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">667-ECE-A1HKA010</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDFA0B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Custom:C1.5V7-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">667-EEU-FC1H100L</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDFBF8</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Power</value>
+      <footprint>Custom:SIL-2-LARGE_PADS</footprint>
+      <libsource lib="kicad-100K-B-v2-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FE0641</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2u</value>
+      <footprint>Custom:C1.5V7-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">647-UVZ1H2R2MDD</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FE7685</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Out</value>
+      <footprint>Custom:SIL-2-LARGE_PADS</footprint>
+      <libsource lib="kicad-100K-B-v2-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDE8A1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>In</value>
+      <footprint>Custom:SIL-2-LARGE_PADS</footprint>
+      <libsource lib="kicad-100K-B-v2-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FDEDC6</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47p</value>
+      <footprint>Custom:C2-LARGE_PADS</footprint>
+      <fields>
+        <field name="Ref_Mouser">505-FKP247/1000/10</field>
+      </fields>
+      <libsource lib="kicad-100K-B-v2-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54033D31</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="kicad-100K-B-v2-cache" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-100K-B-v2-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-100K-B-v2-cache" part="CP1">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-100K-B-v2-cache" part="LM358">
+      <aliases>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>LM358N</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-100K-B-v2-cache" part="POT">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-100K-B-v2-cache" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="kicad-100K-B-v2-cache">
+      <uri>D:\Work\electronics\preamp 3eq LA\src\kicad-100K-B-v2\kicad-100K-B-v2-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R5-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R9-Pad2)">
+      <node ref="RV3" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad1)">
+      <node ref="RV3" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C7-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad2)">
+      <node ref="P2" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="U1" pin="4"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C10-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C10-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="20" name="vRef">
+      <node ref="R11" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="v+">
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="P3" pin="2"/>
+    </net>
+  </nets>
+</export>
