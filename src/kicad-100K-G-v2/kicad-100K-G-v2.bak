@@ -1,14 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:kicad-100K-G-v2-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Preamp 3EQ \"Lutherie Amateur\""
 Date "27 August 2014"
-Rev "V2"
+Rev "V2.1"
 Comp ""
 Comment1 "Guitar version, 100K pots"
 Comment2 "Open Hardware, Licensed under CERN OHL v.1.2"
@@ -64,7 +64,7 @@ L R R2
 U 1 1 53FDBBE1
 P 2450 4000
 F 0 "R2" V 2530 4000 40  0000 C CNN
-F 1 "5Meg" V 2457 4001 40  0000 C CNN
+F 1 "4.7Meg" V 2457 4001 40  0000 C CNN
 F 2 "Custom:R3-LARGE_PADS" V 2380 4000 30  0001 C CNN
 F 3 "" H 2450 4000 30  0000 C CNN
 	1    2450 4000
@@ -262,7 +262,7 @@ L R R10
 U 1 1 53FDE08B
 P 7450 5850
 F 0 "R10" V 7530 5850 40  0000 C CNN
-F 1 "500" V 7457 5851 40  0000 C CNN
+F 1 "470" V 7457 5851 40  0000 C CNN
 F 2 "Custom:R3-LARGE_PADS" V 7380 5850 30  0001 C CNN
 F 3 "" H 7450 5850 30  0000 C CNN
 	1    7450 5850
@@ -515,17 +515,6 @@ Connection ~ 9900 5200
 Text Notes 10100 4400 0    60   ~ 0
 +9V
 $Comp
-L CP1 C2
-U 1 1 53FE7685
-P 4000 3550
-F 0 "C2" H 4050 3650 50  0000 L CNN
-F 1 "2.2u" H 4050 3450 50  0000 L CNN
-F 2 "Custom:C1.5V7-LARGE_PADS" H 4000 3550 60  0001 C CNN
-F 3 "" H 4000 3550 60  0000 C CNN
-	1    4000 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L CONN_01X02 P2
 U 1 1 53FDE8A1
 P 8450 5900
@@ -594,4 +583,15 @@ Connection ~ 7150 5150
 Wire Wire Line
 	5750 5150 6050 5150
 Connection ~ 5800 5150
+$Comp
+L C C2
+U 1 1 5450CF2F
+P 4000 3550
+F 0 "C2" H 4000 3650 40  0000 L CNN
+F 1 "1uF" H 4006 3465 40  0000 L CNN
+F 2 "" H 4038 3400 30  0000 C CNN
+F 3 "" H 4000 3550 60  0000 C CNN
+	1    4000 3550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
